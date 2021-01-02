@@ -1,6 +1,31 @@
 /*-----------styles index-----------------*/
 
+@media (max-width: 999px){
+    .profile-container {
+        justify-content: center;
+    }
+    .profile-container .profile-container__description {
+        width: 100%;
+        margin-top: 30px;
+    }
 
+    .profile-container__description h2{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .profile-container__description {
+        justify-content: center;
+    }
+
+    .proyect-container{
+        margin-right: 30px;
+    } 
+
+    .proyects-main-container{
+        justify-content: center;
+    }
+}
 @media (max-width: 530px){
     nav .nav-logo-container {
         margin-left: 0;
@@ -27,6 +52,25 @@
 
     nav .profile-link{
         margin-right: 20px;
+    }
+
+    .contact-main-container{
+        padding-bottom: 0;
+    }
+
+    .contact-main-container div {
+        display: flex;
+        width: 80%;
+        height: 100%;
+    }
+
+    .contact-main-container img {
+        height: 100px;
+    }
+
+    .contact-main-container .contact-left, .contact-right {
+        margin-top: 0;
+        text-align: initial;
     }
 }
 
