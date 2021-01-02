@@ -3,6 +3,13 @@
 :root{
     --blue-primary: #111d5e
 }
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 body {
     font-family: 'Roboto Mono', monospace;
     margin: 0;
@@ -187,6 +194,64 @@ footer p {
     font-size: 35px;
 }
 
+.
+
+.profile-container .profile-container__image{
+    width:40%;
+}
+.profile-container .profile-container__description{
+    width:60%;
+}
+
+.profile-main-container img {
+    width: 320px;
+    margin-right: 30px;
+}
+.profile-main-container .profile-container {
+    display: flex;
+    flex-wrap: wrap;
+}   
+.profile-main-proyects {
+    padding: 0 50px 40px;
+}
+.profile-main-proyects h3 {
+    border-bottom: 1px solid #cdd2da;
+    padding-bottom: 35px;
+    text-align: center;
+}
+.proyects-main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.proyect-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 300px;
+    min-width: 280px;
+    height: 450px;
+    border-radius: 50px;
+    margin-top: 50px;
+    box-shadow: -1px 2px 6px 0px #737171;
+}
+
+.proyect-container--title{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+.proyect-container--image img{
+    width: 230px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.proyect-container p{
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
 .contact-main-container {
     width: 100%;
     min-height: 250px;
@@ -215,36 +280,4 @@ footer p {
     padding: 70px 40px;
     background-color: #e6e9ed;
     margin-bottom: 50px;
-}
-
-.profile-container div{
-    width: 50%;
-}
-
-.profile-main-container img {
-    width: 320px;
-    margin-right: 30px;
-}
-.profile-main-container .profile-container {
-    display: flex;
-    flex-wrap: wrap;
-}   
-.profile-main-proyects {
-    padding: 0 50px 40px;
-}
-.profile-main-proyects h3 {
-    border-bottom: 1px solid #cdd2da;
-    padding-bottom: 35px;
-    text-align: center;
-}
-.proyects-main-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-.proyect-container {
-    border: 1px solid black;
-    width: 300px;
-    min-width: 280px;
-    height: 450px;
-    border-radius: 50px;
 }
