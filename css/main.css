@@ -28,7 +28,7 @@ a {
     left: 0;
     right: 0;
 }
-.grid-container {
+.section-container {
     max-width: 980px;
     margin: auto;
 }
@@ -80,6 +80,7 @@ nav .profile-link {
 nav .profile-link a {
     color: black;
     border-bottom: 1px solid black;
+    margin-left: 10px;
 }
 
 .home-main {
@@ -91,6 +92,8 @@ nav .profile-link a {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
 .home-main section {
     display: grid;
     grid-column: 2;
@@ -116,9 +119,6 @@ nav .profile-link a {
     line-height: 50px;
 }
 
-.blogs-main {
-    display: grid;
-}
 .blogs-news-container {
     background-color: #e6e9ed;
     padding: 0 50px 40px;
@@ -164,6 +164,8 @@ nav .profile-link a {
 }
 .blogs-posts-container .post-container img {
     width: 100%;
+    border-radius: 20px;
+    margin-top: 20px;
 }
 
 
