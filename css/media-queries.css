@@ -130,6 +130,18 @@
         width: 162px;
 }   
 
+.profile-container .profile-container__image {
+    width: 100%;
+    }
+
+    .profile-container .profile-container__image img{
+        width: 100%;
+    }
+
+    .proyects-main-container{
+        margin-left: 25px;
+    }
+}
 /* @media (min-width: 900px) {
     .blogs-main-new {
         grid-template-columns: 1fr;
